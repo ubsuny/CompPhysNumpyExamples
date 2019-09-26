@@ -1,5 +1,7 @@
 # CompPhysNumpyExamples
 
+**IMPORTANT: READ THESE INSTRUCTIONS.**
+
 Here you will exercise a few advanced python skills, using `jupyter` notebooks: 
 
 - Problem 1: Array programming and selections. 
