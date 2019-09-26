@@ -8,6 +8,8 @@ Here you will exercise a few advanced python skills, using `jupyter` notebooks:
 - Problem 2: Array programming operations and plotting. 
 - Problem 3 (grad students only): using C++ and python with SWIG
 
+
+## Setup the software 
 To perform Problem 3, you will need to have this package **in a parallel directory** to the standard CompPhys package. 
 
 
@@ -32,4 +34,17 @@ cd /home/yourusername/working/CompPhys
 ./runDocker.sh srappoccio/compphys:latest 0
 ```
 
+## Perform the exercises. 
+
 Then go to [your browser window](https://127.0.0.1:8888) and you should have access to the various problems. 
+
+
+## Commit your code for the assignment
+
+```
+cd /home/yourusername/working/results/technical-assignment-5-rappoccio
+git add -u . 
+git add (whatever other files you need)
+git commit -m"I hope I passed"
+git push origin master
+```
