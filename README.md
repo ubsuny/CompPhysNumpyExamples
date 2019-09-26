@@ -41,6 +41,7 @@ Then go to [your browser window](https://127.0.0.1:8888) and you should have acc
 
 ## Commit your code for the assignment
 
+Go to your assignment directory (mine is below, yours will be different). 
 ```
 cd /home/yourusername/working/results/technical-assignment-5-rappoccio
 git add -u . 
