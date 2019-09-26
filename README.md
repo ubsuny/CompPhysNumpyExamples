@@ -36,7 +36,7 @@ cd /home/yourusername/working/CompPhys
 
 ## Perform the exercises. 
 
-Then go to [your browser window](127.0.0.1:8888) and you should have access to the various problems. 
+Then go to [your browser window](http://127.0.0.1:8888) and you should have access to the various problems. 
 
 
 ## Commit your code for the assignment
