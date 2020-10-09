@@ -19,19 +19,19 @@ Assuming your folder where you work is called `/home/yourusername/working`
 **On your host OS** (that is, your laptop... not the docker image):
 ```
 cd /home/yourusername/working/results            #<-- Put in YOUR path to YOUR results folder
-git clone https://github.com/rappoccio/CompPhys.git
-git clone https://github.com/rappoccio/CompPhysNumpyExamples.git
+git clone https://github.com/ubsuny/CompPhys.git
+git clone https://github.com/ubsuny/CompPhysNumpyExamples.git
 ```
 
 For your assignment **replace the last line** with your assignment 5 github area. Here is mine (yours is different): 
 ```
-git clone https://github.com/ubsuny/technical-assignment-5-rappoccio.git
+git clone https://github.com/ubsuny/technical-assignment-5-laserlab.git
 ```
 
 Then, you go to your "CompPhys" folder to execute `jupyter` from the `docker` image. 
 ```
 cd /home/yourusername/working/CompPhys
-./runDocker.sh srappoccio/compphys:latest 0
+./runDocker.sh ubsuny/compphys:latest 0
 ```
 
 ## Perform the exercises. 
@@ -43,9 +43,9 @@ Then go to [your browser window](http://127.0.0.1:8888) and you should have acce
 
 Go to your assignment directory (mine is below, yours will be different). 
 ```
-cd /home/yourusername/working/results/technical-assignment-5-rappoccio
+cd /home/yourusername/working/results/technical-assignment-5-laserlab
 git add -u . 
 git add (whatever other files you need)
-git commit -m"I hope I passed"
-git push origin master
+git commit -m "I hope I passed"
+git push origin main
 ```
